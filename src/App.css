@@ -28,10 +28,55 @@
   color: #61dafb;
 }
 
+/*  */
+
+.btn-wraper button {
+  background-color: red;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: #333 0px 1px 5px;
+  cursor: pointer;
+}
+
+.img-wraper img {
+  width: 70px;
+  margin-top: -20px;
+
+
+}
+
+.cart-wraper {
+  height: 100px;
+  width: 500px;
+  border: 3px solid #ccc;
+  margin-left: 10px;
+
+}
+
+.item {
+  float: left;
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+
+}
+
+
+/*  */
+
+
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
